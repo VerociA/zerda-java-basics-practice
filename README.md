@@ -20,7 +20,7 @@
 ## 2. The Garden Application (~90 mins) [15p]
 The task is to create a garden application, so in your main method you should create a garden with flowers and trees. The program should demonstrate an example garden with two flowers (yellow and blue) and two trees (purple and orange). In the example after creating them you should show the user, how the garden looks like. After that the program should water the garden twice, first with the amount of `40` then with `70`. And after every watering the user should see the state of the garden as you can see in the output.
 
-The output should look like this
+The output should look like this:
 ```
 The yellow Flower needs water
 The blue Flower needs water
@@ -104,10 +104,10 @@ Blackberry is created
 ## 4. Question time! (~20 mins) [6p]
 
 ### Whats the difference between a Class and an Object? [2p]
-#### Your answer:
+#### Your answer: A Class is a template where Objects are created. Class is a logical entity while Object is physical. There can be only one for example Apple Class, while as many Apple Object as we want.
 
 ### What is the superclass when a class doesnt extend anything? What methods will it inherit (the two most important is enough)? [2p]
-#### Your answer:
+#### Your answer:  The java.lang.Object class will be its super. The Object Class is the topmost Class in the hierarchy. It inherits (actually all Java Class does) all of the methods of the Object Class. Two methodes: clone(), equals(Object obj)
 
 ### What is polymorphism? [2p]
-#### Your answer:
+#### Your answer: Polymorphism enables to override the inherited methods and to use them as they were part of the parent Class.

@@ -20,7 +20,7 @@
 ## 2. The Garden Application (~90 mins) [15p]
 The task is to create a garden application, so in your main method you should create a garden with flowers and trees. The program should demonstrate an example garden with two flowers (yellow and blue) and two trees (purple and orange). In the example after creating them you should show the user, how the garden looks like. After that the program should water the garden twice, first with the amount of `40` then with `70`. And after every watering the user should see the state of the garden as you can see in the output.
 
-The output should look like this:
+The output should look like this
 ```
 The yellow Flower needs water
 The blue Flower needs water
@@ -98,7 +98,7 @@ Blackberry is created
 4
 ```
 
-#### Explain what you did, and answer the questions here:
+#### Explain what you did, and answer the questions here: It would also print out "Apple is created" because we made a Constructor for it in the Apple class and Blackberry class extends Apple class therefor when we create a Blackberry object it also calls the Apple class. So we can either remove the extends Apple part of the class defnition of Blacberry or just delete/comment out the Apple Constructor. 
 
 
 ## 4. Question time! (~20 mins) [6p]
